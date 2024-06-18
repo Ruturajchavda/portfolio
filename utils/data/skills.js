@@ -1,0 +1,21 @@
+export const skillsData = [
+  'Android',
+  'Java',
+  'Kotlin',
+  'Flutter',
+  'Dart',
+  'iOS',
+  'Swift',
+  'Firebase',
+  'MySQL',
+  'PostgreSQL',
+  'MongoDB',
+  'AWS',
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'GIT',
+  'JIRA',
+  'Postman',
+  'PHP'
+]
