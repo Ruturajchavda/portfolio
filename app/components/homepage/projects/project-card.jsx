@@ -3,7 +3,6 @@
 import * as React from 'react';
 
 function ProjectCard({ project }) {
-
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">
@@ -64,6 +63,20 @@ function ProjectCard({ project }) {
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
+
+      {/* See Demo Button */}
+      {project.demo && (
+        <div className="px-4 lg:px-8 pb-4 lg:pb-8">
+          <a
+            href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-center bg-gradient-to-r from-pink-500 to-violet-600 text-white font-semibold px-4 py-2 rounded-lg hover:opacity-90 transition-opacity duration-200"
+          >
+            See Demo
+          </a>
+        </div>
+      )}
     </div>
   );
 };
