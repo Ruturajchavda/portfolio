@@ -16,12 +16,12 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Geoagri',
-        description: 'GeoAgri is an Agri Commodities Information Service delivering detailed insights into the agriculture commodity market. It provides accurate spot prices, APMC arrivals, NCDEX & MCX futures, and weather data, enabling informed decisions. Users, including farmers and traders, access market reports, crop estimates, and news. The app also features comprehensive data and special reports on commodity supply, demand, production, and international trade, supporting efficient business operations and strategic planning for industry participants.',
+        name: 'A Farming app',
+        description: 'The farming app is an Agri Commodities Information Service delivering detailed insights into the agriculture commodity market. It provides accurate spot prices, APMC arrivals, NCDEX & MCX futures, and weather data, enabling informed decisions. Users, including farmers and traders, access market reports, crop estimates, and news. The app also features comprehensive data and special reports on commodity supply, demand, production, and international trade, supporting efficient business operations and strategic planning for industry participants.',
         tools: ['Android Studio', 'Java', 'Firebase', 'Retrofit','Dependency Injection', 'Jetpack Compose', 'SQLite', 'WebSocket', 'Glide', 'PHP', 'GIT'],
         role: 'Application Developer',
         code: '',
-        demo: '',
+        demo: 'https://play.google.com/store/apps/details?id=com.agribegri&hl=en_CA',
         image: crefin,
     },
     {
@@ -40,7 +40,7 @@ export const projectsData = [
         description: 'Brand eManager is India’s premier business marketing and branding app. It helps create posters for festivals, business marketing, politics, and daily themes. The app features image-to-video posts, image editing, custom templates, digital business cards, and more. It covers all major Indian festivals and events, providing daily updates. Users can easily register and input their company details to start creating branding content, making it a comprehensive 360-degree branding solution for businesses.',
         tools: ['Android', 'Java', 'Retrofit', 'Firebase', 'openCV'],
         code: '',
-        demo: '',
+        demo: 'https://play.google.com/store/apps/details?id=com.apps.brandemanager&hl=en_CA',
         image: crefin,
         role: 'Assistant Application Developer',
     }
